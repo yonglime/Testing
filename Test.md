@@ -60,7 +60,7 @@ Below is a close up of the schematic for the Arduino Mega. From this schematic t
 
 Below is a close up of the schematic for the relay board. The three outputs coming from the Arduino's pins 4-6 are received as inputs on the relay board IN 1-3. The relay board is also powered by the 5V output from the Arduino. Relays K 1-3 output 3 wires to the led light strip. *Note: The schematic shows a LED light to represent the LED strip. 
 
-![enter image description here](https://lh3.googleusercontent.com/DtJTkISzMWz4j8B39JvjowJMLRaYTNcKLbvnUc_DvmmqAWs9BnSO7Plj_dFlIWik7RzlDQK2xqpO)
+![enter image description here](https://lh3.googleusercontent.com/vOm3j_ioa97sHyetp2GTIU1-SRyaDiq9Ij365_kClWMecO1_mnfdXGt7gWO0VDkQ75LfTE7BLT4G)
 
 ### **Code**
 
