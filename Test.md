@@ -1,5 +1,7 @@
 
 ## **Light Buoy (Electrical Component)**
+
+
 The light buoy is created for the purposes of testing and collecting data in a real life environment for color recognition. The main goal is for the light buoy to flash three colors (Red, Blue, and Green) in a random sequence.  
 
 The light buoy will appear black when it is off. The light assembly on the buoy will successively display colors one at a time to generate a sequential pattern of three colors (e.g., red-green-red). Each individual color will appear for 1 second, after which the lights will remain off (black) for 2 seconds before repeating the same pattern. A color may be repeated in the pattern, but the same color will not appear twice in a row.
@@ -7,10 +9,17 @@ The light buoy will appear black when it is off. The light assembly on the buoy 
 [Link to RobotX 2018 competition details
 ](https://www.robotx.org/images/RobotX-2018-Tasks_v2.0.pdf)
 
+### **Prerequisites**
+
+ - C/C++
+ - Arduino knowledge
+ - Relay knowledge 
+ - Know how to solder 
+
 ### **Supplies**
 
  - Arduino Mega
- - 3-Channel Relay Board
+ - Atleast 3-Channel Relay Board
  - Portable Power Supply (12V+)
  - Voltage Regulator (If needed)
  - Husky Box or any water proof container/box.
@@ -74,4 +83,10 @@ The reasoning behind having two different codes are for the different methods of
 
 Software is required to import code onto the Arduino. Either the IDE or the web editor will work. 
 
-### **Final**
+### **Assembly**
+
+ Below is an example of how assembling the Husky Box should look like. All electrical components are attached to the box with velcro and on the base of the box NOT the cover of the box. If you look at the sides of the box there is a button and water proof ethernet cable. Ethernet cable were chosen to connect the electrical components to the actual light buoy because it is water proof and long enough to connect the two. Other water proofing is needed such as super gluing around the button as well as the ethernet cable. 
+
+*Note: In the example box there is a voltage regulator. This was used to drop the portable battery(14.4V) to 12V. 
+ 
+![enter image description here](https://lh3.googleusercontent.com/8ICdDS54b4UjO9Jfksjj4J_tzWmSYEsAXu7PtX8rVLjdSAefE6AmS2m3e1ofwjDcOXZ99jCgvJye)
